@@ -1,0 +1,37 @@
+{
+  "nmap": {
+    "command_line": "nmap -oX - -p 80 -sV localhost",
+    "scaninfo": { "tcp": { "method": "connect", "services": "80" } },
+    "scanstats": {
+      "timestr": "Sat May  6 10:50:12 2023",
+      "elapsed": "0.29",
+      "uphosts": "1",
+      "downhosts": "0",
+      "totalhosts": "1"
+    }
+  },
+  "scan": {
+    "127.0.0.1": {
+      "hostnames": [
+        { "name": "localhost", "type": "user" },
+        { "name": "localhost", "type": "PTR" }
+      ],
+      "addresses": { "ipv4": "127.0.0.1" },
+      "vendor": {},
+      "status": { "state": "up", "reason": "conn-refused" },
+      "tcp": {
+        "80": {
+          "state": "closed",
+          "reason": "conn-refused",
+          "name": "http",
+          "product": "",
+          "version": "",
+          "extrainfo": "",
+          "conf": "3",
+          "cpe": ""
+        }
+      }
+    }
+  }
+}
+>

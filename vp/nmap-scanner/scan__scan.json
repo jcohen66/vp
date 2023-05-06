@@ -1,0 +1,23 @@
+{
+  "127.0.0.1": {
+    "hostnames": [
+      { "name": "localhost", "type": "user" },
+      { "name": "localhost", "type": "PTR" }
+    ],
+    "addresses": { "ipv4": "127.0.0.1" },
+    "vendor": {},
+    "status": { "state": "up", "reason": "conn-refused" },
+    "tcp": {
+      "80": {
+        "state": "closed",
+        "reason": "conn-refused",
+        "name": "http",
+        "product": "",
+        "version": "",
+        "extrainfo": "",
+        "conf": "3",
+        "cpe": ""
+      }
+    }
+  }
+}
